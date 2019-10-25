@@ -9,16 +9,16 @@
 **Create Programmatically**
 
 ```swift
-        let speechBubble = SpeechBubbleView(frame: CGRect(x: 200, y: 200, width: 200, height: 200))
-        speechBubble.speechBubbleColor = .yellow
-        speechBubble.lineColor = .blue
-        speechBubble.lineWidth = 3
-        speechBubble.cornerRadius = 3
-        
-        speechBubble.triangleType = .right
-        speechBubble.triangleSpacing = 10
-        speechBubble.triangleWidth = 10
-        speechBubble.triangleHeight = 10
+let speechBubble = SpeechBubbleView(frame: CGRect(x: 200, y: 200, width: 200, height: 200))
+speechBubble.speechBubbleColor = .yellow
+speechBubble.lineColor = .blue
+speechBubble.lineWidth = 3
+speechBubble.cornerRadius = 3
+
+speechBubble.triangleType = .right
+speechBubble.triangleSpacing = 10
+speechBubble.triangleWidth = 10
+speechBubble.triangleHeight = 10
 ```
 
 **Create in Storyboard/XIB**
