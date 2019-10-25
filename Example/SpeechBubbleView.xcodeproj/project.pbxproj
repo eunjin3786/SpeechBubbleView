@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1F7DA3710E4B7B235E499A5C /* Pods_SpeechBubbleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechBubbleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A6A11AF787ECD4E5B7E760 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3EC3A88D3D418B5429E50A04 /* SpeechBubbleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpeechBubbleView.podspec; path = ../SpeechBubbleView.podspec; sourceTree = "<group>"; };
+		37A6A11AF787ECD4E5B7E760 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3EC3A88D3D418B5429E50A04 /* SpeechBubbleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpeechBubbleView.podspec; path = ../SpeechBubbleView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SpeechBubbleView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechBubbleView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		818B34BC12862AE87AA9F107 /* Pods-SpeechBubbleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechBubbleView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SpeechBubbleView_Tests/Pods-SpeechBubbleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		918FE15B4089BE4FE9C084E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		918FE15B4089BE4FE9C084E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7C37AB305863C1E74695842 /* Pods_SpeechBubbleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechBubbleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D18C1245968FAB9C2E6AF8 /* Pods-SpeechBubbleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechBubbleView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SpeechBubbleView_Example/Pods-SpeechBubbleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E27B9D46C5F4D0297ED69119 /* Pods-SpeechBubbleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechBubbleView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SpeechBubbleView_Tests/Pods-SpeechBubbleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				818B34BC12862AE87AA9F107 /* Pods-SpeechBubbleView_Tests.debug.xcconfig */,
 				E27B9D46C5F4D0297ED69119 /* Pods-SpeechBubbleView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

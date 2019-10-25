@@ -1,0 +1,6 @@
+framework module Pods_SpeechBubbleView_Tests {
+  umbrella header "Pods-SpeechBubbleView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

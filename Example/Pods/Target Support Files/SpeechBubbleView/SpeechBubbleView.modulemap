@@ -1,0 +1,6 @@
+framework module SpeechBubbleView {
+  umbrella header "SpeechBubbleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

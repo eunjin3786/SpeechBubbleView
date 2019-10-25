@@ -1,0 +1,22 @@
+{
+  "name": "SpeechBubbleView",
+  "version": "0.1.0",
+  "summary": "A short description of SpeechBubbleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/eunjin3786/SpeechBubbleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "eunjin3786": "eunjin3786@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/eunjin3786/SpeechBubbleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SpeechBubbleView/Classes/**/*"
+}

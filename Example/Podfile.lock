@@ -1,0 +1,16 @@
+PODS:
+  - SpeechBubbleView (0.1.0)
+
+DEPENDENCIES:
+  - SpeechBubbleView (from `../`)
+
+EXTERNAL SOURCES:
+  SpeechBubbleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SpeechBubbleView: 5bfaf6890a6c5368183c95444f4dbc706e5fd2d9
+
+PODFILE CHECKSUM: 9f376aff4a2696756d67ff17a87e521793223cfa
+
+COCOAPODS: 1.8.1
