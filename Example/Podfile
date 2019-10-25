@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SpeechBubbleView_Example' do
+  pod 'SpeechBubbleView', :path => '../'
+
+  target 'SpeechBubbleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
