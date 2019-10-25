@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SpeechBubbleView.svg?style=flat)](https://cocoapods.org/pods/SpeechBubbleView)
 
 ## Usage
-**Create Programmatically**
+#### Create Programmatically
 
 ```swift
 let speechBubble = SpeechBubbleView(frame: CGRect(x: 200, y: 200, width: 200, height: 200))
@@ -21,7 +21,7 @@ speechBubble.triangleWidth = 10
 speechBubble.triangleHeight = 10
 ```
 
-**Create in Storyboard/XIB**
+#### Create in Storyboard/XIB
 
 
 
