@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpeechBubbleView'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Amazing SpeechBubbleView'
   s.description      = 'You can make various SpeechBubbleView with this!'
   s.homepage         = 'https://github.com/eunjin3786/SpeechBubbleView'

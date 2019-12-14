@@ -1,25 +1,25 @@
 import UIKit
 
-enum SpeechBubbleTriangleType: String, CaseIterable {
+public enum SpeechBubbleTriangleType: String, CaseIterable {
     case left
     case center
     case right
 }
 
 @IBDesignable
-class SpeechBubble: UIView {
+public class SpeechBubbleView: UIView {
     
-    @IBInspectable var speechBubbleColor: UIColor = .white
-    @IBInspectable var cornerRadius: CGFloat = 4
+    @IBInspectable public var speechBubbleColor: UIColor = .white
+    @IBInspectable public var cornerRadius: CGFloat = 4
     
-    @IBInspectable var lineWidth: CGFloat = 1
-    @IBInspectable var lineColor: UIColor = .lightGray
+    @IBInspectable public var lineWidth: CGFloat = 1
+    @IBInspectable public var lineColor: UIColor = .lightGray
     
-    @IBInspectable var triangleWidth: CGFloat = 7
-    @IBInspectable var triangleHeight: CGFloat = 6
-    @IBInspectable var triangleSpacing: CGFloat = 10
+    @IBInspectable public var triangleWidth: CGFloat = 7
+    @IBInspectable public var triangleHeight: CGFloat = 6
+    @IBInspectable public var triangleSpacing: CGFloat = 10
     
-    var triangleType: SpeechBubbleTriangleType = .left
+    public var triangleType: SpeechBubbleTriangleType = .left
     @IBInspectable var triangleTypeName: String = SpeechBubbleTriangleType.left.rawValue {
         didSet {
             if let type = SpeechBubbleTriangleType.allCases.first(where: { $0.rawValue == triangleTypeName }) {
@@ -30,13 +30,13 @@ class SpeechBubble: UIView {
         }
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         self.backgroundColor = .white
         makePath()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         setNeedsDisplay()
     }
