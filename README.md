@@ -41,12 +41,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### Cocoapods
 SpeechBubbleView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SpeechBubbleView'
 ```
+
+### Swift Package Manager
+SpeechBubbleView is available through Swift Package Manager.
 
 ## Author
 
