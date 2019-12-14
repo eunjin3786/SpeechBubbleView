@@ -12,9 +12,9 @@
 		7A117646405A01BD41257469CE0D5397 /* Pods-SpeechBubbleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87509F1A73F7B8EBF8ADCA411C89A58B /* Pods-SpeechBubbleView_Tests-dummy.m */; };
 		89828B4B3F3CD51B3B9C5554C819EF6C /* Pods-SpeechBubbleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9766F606C1EFEF6095BDF904020C9D /* Pods-SpeechBubbleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98650417CD43500709064F37F949AD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AC8A188823A4F3D800A5BE20 /* SpeechBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A188723A4F3D800A5BE20 /* SpeechBubbleView.swift */; };
 		B9627DC6A8991316C9192284CE301CDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C12CE11077059E5318FE997EB77CCE3A /* Pods-SpeechBubbleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD860BDD28675D5DF0D9969F35CCEDE /* Pods-SpeechBubbleView_Example-dummy.m */; };
-		D0B3898E6223BAE4F6B51060EB28F285 /* SpeechBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979D8F7AB43541852839371C8A2FA8D4 /* SpeechBubbleView.swift */; };
 		DA93D6B27F675B6FA83CF1487F3D94CB /* Pods-SpeechBubbleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB248E91552EBE09FCD4F9DD4622DCF /* Pods-SpeechBubbleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E587F6ECDBE3E00423C3128FA4CB1BCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -53,8 +53,8 @@
 		8C17D62285FE6BD9427A3B16F444AF08 /* Pods-SpeechBubbleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechBubbleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D5EBBA7A405D560D649B49C92FDE5A7 /* SpeechBubbleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SpeechBubbleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940EB01CD6833B7E8A05501FC92FFB2A /* Pods-SpeechBubbleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechBubbleView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		979D8F7AB43541852839371C8A2FA8D4 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechBubbleView.swift; path = SpeechBubbleView/Classes/SpeechBubbleView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8A188723A4F3D800A5BE20 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechBubbleView.swift; path = Sources/SpeechBubbleView/Classes/SpeechBubbleView.swift; sourceTree = "<group>"; };
 		AF2028A1224DA856D64658DECA17D80D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B63C487A602037CFC417ACEF0A23DBA6 /* Pods-SpeechBubbleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeechBubbleView_Tests-Info.plist"; sourceTree = "<group>"; };
 		BD7A8434AF310350DE54DCAF82093FE2 /* Pods-SpeechBubbleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeechBubbleView_Example-Info.plist"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		536E339C62DAF741852454B2E560FE7D /* SpeechBubbleView */ = {
 			isa = PBXGroup;
 			children = (
-				979D8F7AB43541852839371C8A2FA8D4 /* SpeechBubbleView.swift */,
+				AC8A188723A4F3D800A5BE20 /* SpeechBubbleView.swift */,
 				89B86D9DB04F123CB918E0E5ADC9EBEC /* Pod */,
 				E6A77C0EAC564B2067AB85149324E2AA /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					71867A6177702E781FE8FC913CA22CFF = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8A188823A4F3D800A5BE20 /* SpeechBubbleView.swift in Sources */,
 				C12CE11077059E5318FE997EB77CCE3A /* Pods-SpeechBubbleView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +378,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B3898E6223BAE4F6B51060EB28F285 /* SpeechBubbleView.swift in Sources */,
 				6F9DA9C7BAF70FFB0F1B9229F7996974 /* SpeechBubbleView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +511,7 @@
 			baseConfigurationReference = DD3D03BEDDE0098263644093775FB37C /* Pods-SpeechBubbleView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,6 +534,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -694,6 +702,7 @@
 			baseConfigurationReference = 940EB01CD6833B7E8A05501FC92FFB2A /* Pods-SpeechBubbleView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -716,6 +725,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

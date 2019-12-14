@@ -7,7 +7,7 @@ enum SpeechBubbleTriangleType: String, CaseIterable {
 }
 
 @IBDesignable
-class SpeechBubbleView: UIView {
+class SpeechBubble: UIView {
     
     @IBInspectable var speechBubbleColor: UIColor = .white
     @IBInspectable var cornerRadius: CGFloat = 4
